@@ -13,7 +13,7 @@ sys.path.insert(0, parentdir)
 from src.main_streamlit import search_items_API
     
 def test_api_amazon():
-    product = 'dell'
+    product = 'laptop'
     site = 'az'
     result = search_items_API(site, product)
     assert result is not None
