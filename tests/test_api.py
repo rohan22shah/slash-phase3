@@ -16,7 +16,7 @@ def test_api_amazon():
     product = 'laptop'
     site = 'az'
     result = search_items_API(site, product)
-    assert result is None
+    assert result is not  None
     
 def test_api_bestbuy():
     product = 'laptop'
