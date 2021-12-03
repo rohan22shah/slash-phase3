@@ -11,7 +11,7 @@ from pydantic import BaseModel
 
 # local imports
 #import scraper.scraper as scr
-import src.scraper.scraper_mt as scr
+import src.scraper_mt as scr
 
 # response type define
 class jsonScraps(BaseModel):
