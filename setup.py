@@ -39,7 +39,6 @@ setup(name='slash',
             'streamlit',
             'webdriver_manager',
             'pyshorteners',
-            'link-button',
             'ebaysdk',
             'requests',
             'pandas'
