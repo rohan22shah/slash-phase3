@@ -12,7 +12,7 @@ import streamlit as st
 from src.main_streamlit import search_items_API
 from src.url_shortener import shorten_url
 import pandas as pd
-from link_button import link_button
+#from link_button import link_button
 
 
 # Hide Footer in Streamlit
@@ -78,7 +78,8 @@ if st.button('Search') and product and website:
         min_idx = [i for i, x in enumerate(price) if x == min_value]
         for minimum_i in min_idx:
             link_button_url = shorten_url(url[minimum_i].split('\\')[-1])
-            link_button(site[minimum_i], link_button_url)
+            st.write("Cheapest Product [link]("+link_button_url+")")
+            #link_button(site[minimum_i], link_button_url)
         
     else:
         st.error('Sorry!, there is no other website with same product')
