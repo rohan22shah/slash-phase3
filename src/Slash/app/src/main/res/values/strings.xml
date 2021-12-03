@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Slash</string>
+    <string name="search">Search</string>
+    <string name="product">Search Product</string>
+    <string-array name="spinner_list">
+        <item>Amazon</item>
+        <item>BestBuy</item>
+        <item>CostCo</item>
+        <item>Ebay</item>
+        <item>Target</item>
+        <item>Walmart</item>
+        <item>All</item>
+    </string-array>
+</resources>
