@@ -51,7 +51,7 @@ if st.button('Search') and product and website:
     site = []
     
     for result in results:
-        if result!={}:
+        if result!={} and result['price']!='':
             description.append(result['title'])
             url.append(result['link'])
             price.append(float(''.join(result['price'].split('$')[-1].strip('$').rstrip('0').split(','))))
