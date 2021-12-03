@@ -10,6 +10,7 @@ import sys
 sys.path.append('../')
 import streamlit as st
 from src.main_streamlit import search_items_API
+from src.url_shortener import shorten_url
 import pandas as pd
 from link_button import link_button
 
@@ -53,7 +54,7 @@ if st.button('Search') and product and website:
         if result!={}:
             description.append(result['title'])
             url.append(result['link'])
-            price.append(float(''.join(result['price'].strip('$').rstrip('0').split(','))))
+            price.append(float(''.join(result['price'].split('$')[-1].strip('$').rstrip('0').split(','))))
             site.append(result['website'])
             
     if len(price):
@@ -76,7 +77,8 @@ if st.button('Search') and product and website:
         min_value = min(price)
         min_idx = [i for i, x in enumerate(price) if x == min_value]
         for minimum_i in min_idx:
-            link_button(site[minimum_i], url[minimum_i])
+            link_button_url = shorten_url(url[minimum_i].split('\\')[-1])
+            link_button(site[minimum_i], link_button_url)
         
     else:
         st.error('Sorry!, there is no other website with same product')
