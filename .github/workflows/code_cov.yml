@@ -26,7 +26,7 @@ jobs:
     - name: Run the tests
       run: |
           cd tests
-          pytest --cov=./
+          coverage run -m unit_test
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
       with:
