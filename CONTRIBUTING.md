@@ -1,81 +1,210 @@
-## 📋 Contributing to Slash !
+# HELLO!! WELCOME TO CONTRIBUTING :)
+## Thanks for being here and taking your time to contribute.  <br>
+The following is a set of guidelines for contributing to "cheapBuy" and its packages, which are hosted in the [cheapBuy](https://github.com/anshulp2912/cheapBuy) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request. <br>
 
-Thank you so much for taking an interest in contributing! We are delighted when people want to contribute to Slash! There are many ways to contribute to this project!
+# Pull Request Process
+1. Pass all the test cases that we have mentioned in the test.py.
+2. Update the README.md with the changes you have made.
+3. Add all the unnecessary build files have to the .gitignore file.
+4. Mention any new installatiuon dependencies in the requirements.txt file.
 
-## 🤔 What should I know before I get started?
+# Committing Changes
+1. You need to start an issue on the project kanban board.
+2. You need to move this issue from to_do to in progress.
+3. Create a new branch and clone the repository.
+4. Change the branch of the code using git checkout.
+5. Make the required changes and commit everything to the newly created branch.
+6. Create a new pull request.
 
-1. Check [README.md](https://github.com/Urvashi74/slash/blob/main/README.md)
-2. Check [requirements.txt](https://github.com/Urvashi74/slash/blob/main/requirements.txt)
-3. Check [setup.py](https://github.com/Urvashi74/slash/blob/main/setup.py)
+# Our Table Of Contents
 
-Understand the current and future scope.
+- .github
+    workflows
+        all github workflow yaml files
+- docs
+    proj1rubrics.md
+    
+- .gitignore
 
-## 🪲 Reporting Bugs
-This section guides you through submitting a bug report for this repository. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports. Before creating bug reports, please perform a cursory search to see if the problem has already been reported. If it has and the issue is still open, add a comment to the existing issue instead of opening a new one. Note: If you find a Closed issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
+- .travis.yml
 
-### How Do I Submit A (Good) Bug Report?
+- CITATION.md
 
-Bugs are tracked as GitHub issues. After you've determined which repository your bug is related to, create an issue on that repository and provide the following information by filling in the template.
+- CODE_OF_CONDUCT.md
+- CONTRIBUTING.md
 
-Explain the problem and include additional details to help a developer reproduce the problem:
-*	Use a clear and descriptive title for the issue to identify the problem.
-*	Describe the exact steps which reproduce the problem in as many details as possible. Along with it, provide the details regarding the name and version of OS, Python version, configuration of the environment, if used any.
-*	Provide specific examples to demonstrate the steps. Include links to files or GitHub projects, or copy/paste able snippets, which you use in those examples. If you're providing snippets in the issue, use Markdown code blocks.
-*	Describe the behavior you observed after following the steps and point out what exactly is the problem with that behavior.
-*	Explain which behavior you expected to see instead and why.
-*	If the problem is related to performance or memory, include details of the errors encountered with your report.
-*	Can you reliably reproduce the issue? If not, provide details about how often the problem happens and under which conditions it normally happens.
+- LICENSE
 
-### Before Submitting A Bug Report
+- README.md
 
-Please check existing bug reports instead of opening a new one. There is a possibility that there are fixes already posted for bugs. If not, you are welcome to submit a bug report and we will look into it as soon as possible.
+- requirements.txt
 
-## 📝 Suggesting Enhancements and New features
+- setup.py
 
-This section guides you through submitting an enhancement suggestion for this project:
+- code
+    __init__.py
 
-### How Do I Submit A (Good) Enhancement Suggestion?
+- data
+    README.md
 
-Enhancement suggestions are tracked as GitHub issues. Create an issue on that repository with an enhancement or feature tag and provide the following information:
-*	Use a clear and descriptive title for the issue to identify the suggestion.
-*	Provide a step-by-step description of the suggested enhancement in as many details as possible.
-*	Provide specific examples to demonstrate the steps. Include copy/paste able snippets which you use in those examples, as Markdown code blocks.
-*	Describe the current behavior and explain which behavior you expected to see instead and why.
+- test
+    README.md
+    test.py
 
-## 🙇 Pull Requests
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a build.
-2. Update the [README.md](https://github.com/Urvashi74/slash/blob/main/README.md) with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
-3. Increase the version numbers in any examples files and the [README.md](https://github.com/Urvashi74/slash/blob/main/README.md) to the new version that this Pull Request would represent. The versioning scheme we use is SemVer.
-4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
+## Code of Conduct
+This project and everyone participating in it is governed by the [Code of Conduct](https://github.com/anshulp2912/cheapBuy/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to anshulp2912@gmail.com.
 
-## 👒 Styleguides
+## How can I Contribute
+### Reporting Bugs 
+This section gives detailed information on how to report bugs. Reporting a bug will help the community and maintainers of the repository. <br>
+Before reporting any bug, make sure it is correct and you have all the details with you. Fot creating any bug report, please fill out [the required template](https://github.com/atom/.github/blob/master/.github/ISSUE_TEMPLATE/bug_report.md). This template will give us necessary information to help solve a bug faster.
 
-### Git Commit Messages
-*	Use the present tense ("Add feature" not "Added feature")
-*	Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
-*	Limit the first line to 72 characters or less
-*	Reference issues and pull requests liberally after the first line
-*	When only changing documentation, include [ci skip] in the commit title
+#### Before Submitting A Bug Report
+The following is a list of items you need to check before submitting a bug report. <br>
 
-### Git Branching Naming Convention
-Not using appropriate naming conventions leads to confusion and complicates the code maintenance team. We can’t ignore Git best practices in branching naming conventions.
+[debugging guide](https://flight-manual.atom.io/hacking-atom/sections/debugging/). Check out this debugging guide, which helps you to find the cause of the problem and you may fix it by yourself manually. <br>
+[cursory search](https://github.com/search?q=+is%3Aissue+user%3Aatom) A cursory search is necessary to check if the reported bug is already mentioned before or not. You can add to the existing bug report if the issue is still open.
 
-- Main (main) is the default branch available in the Git repository. It should be stable all the time and won’t allow any direct check-in. You can only merge it after code review. All team members are responsible for keeping the master stable and up-to-date.
 
-- <b>Make sure the new branch you create follows proper naming conventions.</b>
-```<author>-<date in (DD-MMMM) format>-<short-feature-description>```
-<br> E.g., rahil-6-sept-test-badge
-E.g., moksh-7-sept-web-scraping
+#### To Submit A Good Bug Report
+[GitHub issues](https://guides.github.com/features/issues/) You can track the bugs from this. For the repository that has bug, create an issue and fill out [the template](https://github.com/atom/.github/blob/master/.github/ISSUE_TEMPLATE/bug_report.md) to give details of the bug.
 
-This method allows for easy tracking of different developers’ work and progress with additional systems.
 
-## ✔️ Attribution
-These Contributing guidelines are adapted from the [Atom's](https://github.com/atom/atom/blob/master/CONTRIBUTING.md) contributing guidelines.
+* To identify the problem, give the issue a clear and informative term. <br>
+* Describe in as much detail as possible to duplicate the problem. Explain the problem and explain about the exact command sused in the terminal which caus ethe bug to occur.
+* To demonstrate the steps, give specific examples. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
+* Specify what is the problem beavior and what you expected to see and why
+* If possible, include screenshots and animated GIFs that clearly demonstrate the problem. [this tool](https://www.cockos.com/licecap/)- to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
+* To include a crash report, add a stack trace from the operating system. For macOS, `Console.app` under "Diagnostic and usage information" > "User diagnostic reports" has crash report. Include the crash report in the issue in a [code block](https://help.github.com/articles/markdown-basics/#multiple-lines), a [file attachment](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests/), or put it in a [gist](https://gist.github.com/) and provide link to that gist.
+* For performance or memory issues, include a [CPU profile capture](https://flight-manual.atom.io/hacking-atom/sections/debugging/#diagnose-runtime-performance) with your report.
 
-## 💻 Contributors
+Provide more context by answering these questions: <br>
+* If the problem started happening recently then try downloading the old version of the packages and the code.
+* Include details about your configuration and environment.
+* What is the name and version of the OS you're using?
+* Are you running the project in a virtual environment?
+* Which packages have installed in your system? You can get a list of packages installed by running 'apm list --installed'
 
-* [Anirudh Pande](https://github.com/apande95)
-* [Bradley Erickson](https://github.com/bradley-erickson)
-* [Lalit Bangad](https://github.com/lalit10)
-* [Pratyush Vaidya](https://github.com/Pratyush1184)
-* [Urvashi Kar](https://github.com/Urvashi74)
+## Suggesting Enhancements
+
+Any suggesting enhancements like adding new features or imporving existing functionalities, etc can done by following the below guidelines. They help maintainers understand your improvement. <br>
+[the template](https://github.com/atom/.github/blob/master/.github/ISSUE_TEMPLATE/feature_request.md)- this template is to be filled to add suggestions. These can include the steps that you imagine you would take if the feature you're requesting existed.
+
+##### Before Submitting An Enhancement Suggestion
+
+[debugging guide](https://flight-manual.atom.io/hacking-atom/sections/debugging/). Check out this debugging guide, which helps you to find the cause of the problem and you may fix it by yourself manually. <br>
+[cursory search](https://github.com/search?q=+is%3Aissue+user%3Aatom) A cursory search is necessary to check if the reported bug is already mentioned before or not. You can add to the existing bug report if the issue is still open.
+
+#### To Submit A Good Enhancement Suggestion
+
+[GitHub issues](https://guides.github.com/features/issues/) You can track the bugs from this. For the repository that has bug, create an issue and fill out [the template](https://github.com/atom/.github/blob/master/.github/ISSUE_TEMPLATE/bug_report.md) to give details of the bug.
+
+* To identify the problem, give the issue a clear and informative term. <br>
+* Describe in as much detail as possible to duplicate the problem. Explain the problem and explain about the exact command sused in the terminal which caus ethe bug to occur.
+* To demonstrate the steps, give specific examples. Include links to files or GitHub projects, or copy/pasteable snippets, which you use in those examples. If you're providing snippets in the issue, use [Markdown code blocks](https://help.github.com/articles/markdown-basics/#multiple-lines).
+* Specify what is the problem beavior and what you expected to see and why
+* If possible, include screenshots and animated GIFs that clearly demonstrate the problem. [this tool](https://www.cockos.com/licecap/)- to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux.
+* To include a crash report, add a stack trace from the operating system. For macOS, `Console.app` under "Diagnostic and usage information" > "User diagnostic reports" has crash report. Include the crash report in the issue in a [code block](https://help.github.com/articles/markdown-basics/#multiple-lines), a [file attachment](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests/), or put it in a [gist](https://gist.github.com/) and provide link to that gist.
+* For performance or memory issues, include a [CPU profile capture](https://flight-manual.atom.io/hacking-atom/sections/debugging/#diagnose-runtime-performance) with your report.
+
+#### Start Your Contribution
+
+`beginner` and `help-wanted` issues can help you getting started to contribute your first contribution:
+
+* [Beginner issues][beginner] - issues which should only require a few lines of code, and a test or two.
+* [Help wanted issues][help-wanted] - issues which should be a bit more involved than `beginner` issues.
+
+#### Local development
+
+For developing the project, each section is done locally.
+* [Contributing to Calculator](https://github.com/anshulp2912/cheapBuy/CONTRIBUTING.md)
+
+#### Pull Requests
+
+The goals to be considered are:
+- Focus of problems that are more valuable to users of the platform
+- Engage the community in working toward the best possible solution
+- To review contributions, enable a sustainable system for the maintainers
+
+Please follow these steps to have your contribution considered by the maintainers:
+
+1. Follow the [styleguides](#styleguides)
+2. Verify that all [status checks](https://help.github.com/articles/about-status-checks/) are passing  once the pull request is submitted. <details><summary>What if the status checks are failing?</summary>If a status check is failing, and you believe that the failure is unrelated to your change, please leave a comment on the pull request explaining why you believe the failure is unrelated. A maintainer will re-run the status check for you. If we conclude that the failure was a false positive, then we will open an issue to track that problem with our status check suite.</details>
+
+While the prerequisites above must be satisfied prior to having your pull request reviewed, the reviewer(s) may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted.
+
+## Styleguides
+
+#### Git Commit Messages
+
+* Use the present tense ("Add feature" not "Added feature")
+* Use the imperative mood ("Move cursor to..." not "Moves cursor to...")
+* Limit the first line to 72 characters or less
+* Reference issues and pull requests liberally after the first line
+* When only changing documentation, include `[ci skip]` in the commit title
+* Consider starting the commit message with an applicable emoji:
+    * :art: `:art:` when improving the format/structure of the code
+    * :racehorse: `:racehorse:` when improving performance
+    * :non-potable_water: `:non-potable_water:` when plugging memory leaks
+    * :memo: `:memo:` when writing docs
+    * :penguin: `:penguin:` when fixing something on Linux
+    * :apple: `:apple:` when fixing something on macOS
+    * :checkered_flag: `:checkered_flag:` when fixing something on Windows
+    * :bug: `:bug:` when fixing a bug
+    * :fire: `:fire:` when removing code or files
+    * :green_heart: `:green_heart:` when fixing the CI build
+    * :white_check_mark: `:white_check_mark:` when adding tests
+    * :lock: `:lock:` when dealing with security
+    * :arrow_up: `:arrow_up:` when upgrading dependencies
+    * :arrow_down: `:arrow_down:` when downgrading dependencies
+    * :shirt: `:shirt:` when removing linter warnings
+
+
+  ```
+  
+  
+  #### CoffeeScript Styleguide
+
+* Set parameter defaults without spaces around the equal sign
+    * `clear = (count=1) ->` instead of `clear = (count = 1) ->`
+* Use spaces around operators
+    * `count + 1` instead of `count+1`
+* Use spaces after commas (unless separated by newlines)
+* Use parentheses if it improves code clarity.
+* Prefer alphabetic keywords to symbolic keywords:
+    * `a is b` instead of `a == b`
+* Avoid spaces inside the curly-braces of hash literals:
+    * `{a: 1, b: 2}` instead of `{ a: 1, b: 2 }`
+* Include a single line of whitespace between methods.
+* Capitalize initialisms and acronyms in names, except for the first word, which
+  should be lower-case:
+  * `getURI` instead of `getUri`
+  * `uriToOpen` instead of `URIToOpen`
+* Use `slice()` to copy an array
+* Add an explicit `return` when your function ends with a `for`/`while` loop and
+  you don't want it to return a collected array.
+* Use `this` instead of a standalone `@`
+  * `return this` instead of `return @`
+* Place requires in the following order:
+    * Built in Node Modules (such as `path`)
+    * Local Modules (using relative paths)
+* Place class properties in the following order:
+    * Class methods and properties (methods starting with a `@`)
+    * Instance methods and properties
+
+
+#### Documentation Styleguide
+
+* Use [Markdown](https://daringfireball.net/projects/markdown).
+* Reference methods and classes in markdown with the custom `{}` notation:
+    * Reference classes with `{ClassName}`
+    * Reference instance methods with `{ClassName::methodName}`
+    * Reference class methods with `{ClassName.methodName}`
+
+
+
+# Attribution
+Code of Conduct was adapted from [Contributor Covenant][homepage],
+version 2.0, available at
+https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
+

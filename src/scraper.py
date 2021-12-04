@@ -1,3 +1,10 @@
+"""
+Copyright (c) 2021 Rohan Shah
+This code is licensed under MIT license (see LICENSE.MD for details)
+
+@author: Slash
+"""
+
 # package imports
 from bs4 import BeautifulSoup
 import requests
@@ -5,15 +12,8 @@ from datetime import datetime
 
 
 # local imports
-#<<<<<<< HEAD
 import src.formattr as form
 from src.configs import AMAZON, WALMART, COSTCO, BESTBUY, scrape_ebay, scrape_target
-#=======
-#import src.scraper.formattr as form
-#from src.scraper.configs import AMAZON, WALMART, COSTCO, BESTBUY, scrape_ebay, scrape_target
-#from src.scraper.url_shortener import shorten_url
-#>>>>>>> 8fa8660278a2af068814f345201000d16b24596d
-
 
 def httpsGet(URL):
     """makes HTTP called to the requested URL with custom headers

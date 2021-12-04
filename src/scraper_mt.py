@@ -1,3 +1,10 @@
+"""
+Copyright (c) 2021 Rohan Shah
+This code is licensed under MIT license (see LICENSE.MD for details)
+
+@author: Slash
+"""
+
 # package imports
 from bs4 import BeautifulSoup
 import requests
@@ -7,11 +14,6 @@ from threading import Thread
 # local imports
 import src.formattr as form
 from src.configs_mt import AMAZON, WALMART, COSTCO, BESTBUY, scrape_ebay, scrape_target
-
-#=======
-#import src.scraper.formattr as form
-#from src.scraper.configs import AMAZON, WALMART, COSTCO, BESTBUY, scrape_ebay, scrape_target
-#from src.scraper.url_shortener import shorten_url
 
 class search(Thread):
     def __init__(self, query, config):
@@ -54,7 +56,7 @@ class search(Thread):
             price = res.select(self.config['price_indicator'])
             link = res.select(self.config['link_indicator'])
             product = form.formatResult(self.config['site'], title, price, link)
-            if product['title'] != '':
+            if product['title'] != '' and product['price'] != '' and product['link'] != '':
                 products.append(product)
         self.result = products
 
@@ -82,7 +84,6 @@ class search(Thread):
         }
         s = requests.Session()
         page = s.get(URL, headers=headers)
-        #print("******************8Page Status Code:",page.status_code)
         if page.status_code == 200:
             soup1 = BeautifulSoup(page.content, 'html.parser')
             return BeautifulSoup(soup1.prettify(), 'html.parser')

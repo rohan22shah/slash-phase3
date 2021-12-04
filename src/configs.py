@@ -1,12 +1,16 @@
+"""
+Copyright (c) 2021 Rohan Shah
+This code is licensed under MIT license (see LICENSE.MD for details)
+
+@author: Slash
+"""
+
 # package imports
 from datetime import datetime
 import requests
 from ebaysdk.finding import Connection
-#from scraper.url_shortener import shorten_url
-#from src.url_shortener import shorten_url
 
 # local imports
-#from scraper.formattr import formatTitle
 from src.formattr import formatTitle
 
 # configs
@@ -61,7 +65,7 @@ BESTBUY = {
 
 # individual scrapers
 def scrape_target(query):
-    """Scrape Target's api for data
+    """Scrape to scrape Target's data
 
     Parameters
     ----------
@@ -110,7 +114,7 @@ def scrape_target(query):
 
 
 def scrape_ebay(query):
-    """Scrape Target's api for data
+    """Scraper for Ebay's data
 
     Parameters
     ----------

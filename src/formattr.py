@@ -1,20 +1,14 @@
 """
-Copyright (C) 2021 SE Slash - All Rights Reserved
-You may use, distribute and modify this code under the
-terms of the MIT license.
-You should have received a copy of the MIT license with
-this file. If not, please write to: secheaper@gmail.com
+Copyright (c) 2021 Rohan Shah
+This code is licensed under MIT license (see LICENSE.MD for details)
 
+@author: Slash
 """
+
 from datetime import datetime
 import math
 import html
-#<<<<<<< HEAD
-#from scraper.url_shortener import shorten_url
-#=======
-#from src.url_shortener import shorten_url
 
-#>>>>>>> 8fa8660278a2af068814f345201000d16b24596d
 """
 The formatter module focuses on processing raw text and returning it in
 the required format.
@@ -41,21 +35,11 @@ def formatResult(website, titles, prices, links):
         "link": f'www.{website}.com{link}',
         "website": website,
     }
-#<<<<<<< HEAD
-#   if website == 'walmart':
-#        if link[0:4] == 'http':
-#            product['link'] = f'{link}'
-#    if website == 'costco':
-#        product['link'] = f'{link}'
-#    product['link'] = shorten_url(product['link'])
-#=======
     if website=='walmart':
         if link[0:4]=='http':
             product['link']=f'{link}'
     if website == 'costco':
         product['link'] = f'{link}'
-    #product['link'] = shorten_url(product['link'])
-#>>>>>>> 8fa8660278a2af068814f345201000d16b24596d
     return product
 
 
