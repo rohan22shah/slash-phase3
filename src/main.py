@@ -1,3 +1,10 @@
+"""
+Copyright (c) 2021 Rohan Shah
+This code is licensed under MIT license (see LICENSE.MD for details)
+
+@author: Slash
+"""
+
 # package imports
 import uvicorn
 from typing import Optional
@@ -7,13 +14,12 @@ from fastapi.responses import RedirectResponse
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 import csv
+import nest_asyncio
 
 # local imports
-#import src.scraper as scr
 import src.scraper_mt as scr
-#import src.scraper.scraper as scr
 
-import nest_asyncio
+
 nest_asyncio.apply()
 
 # response type define
