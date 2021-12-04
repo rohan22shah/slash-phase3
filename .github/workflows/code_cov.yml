@@ -8,15 +8,15 @@ on:
       - main
 
 jobs:
-  run:
+  build:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v1
-    - name: Install Python 3.7.12
+      uses: actions/checkout@v2
+    - name: Install Python 3.9.7
       uses: actions/setup-python@v1
       with:
-        python-version: 3.7.12
+        python-version: 3.9.7
     - name: Install dependencies
       run: |
         pip install pytest-cov
@@ -25,9 +25,8 @@ jobs:
     - name: Run the tests
       run: |
           cd tests
-          pytest --cov=./ --cov-report xml:cov.xml
+          pytest --cov=./
     - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v2
+      uses: codecov/codecov-action@v1
       with:
-        directory: ./coverage/reports/
-        files: ./coverage1.xml,./coverage2.xml
+        token: ${{ secrets.CODE_COV_SEC }}
