@@ -1,16 +1,14 @@
-# -*- coding: utf-8 -*-
 """
-Created on Mon Nov 29 00:38:27 2021
+Copyright (c) 2021 Rohan Shah
+This code is licensed under MIT license (see LICENSE.MD for details)
 
-@author: patel
+@author: Slash
 """
-
 
 from typing import Optional
 from pydantic import BaseModel
 
 # local imports
-#import scraper.scraper as scr
 import src.scraper_mt as scr
 
 # response type define
@@ -74,13 +72,6 @@ def search_items_API(
     if not export and len(itemList) > 0:
         file.close()
         return itemList
-#    elif len(itemList) > 0:
-#        # returning CSV
-#        with open('slash.csv', 'w', encoding='utf8', newline='') as f:
-#            dict_writer = csv.DictWriter(f, itemList[0].keys())
-#            dict_writer.writeheader()
-#            dict_writer.writerows(itemList)
-#        return FileResponse('slash.csv', media_type='application/octet-stream', filename='slash_'+item_name+'.csv')
     else:
         # No results
         return None
