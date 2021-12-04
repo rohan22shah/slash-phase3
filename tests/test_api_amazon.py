@@ -17,3 +17,4 @@ def test_api_amazon():
     site = 'az'
     result = search_items_API(site, product)
     assert result is not  None
+
