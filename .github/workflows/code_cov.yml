@@ -19,13 +19,14 @@ jobs:
         python-version: 3.7.12
     - name: Install dependencies
       run: |
+        pip install coverage
         pip install pytest-cov
         pip install -r requirements.txt
         echo requirements installed
     - name: Run the tests
       run: |
           cd tests
-          pytest --cov=./
+          coverage run -m unit_test
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
       with:
