@@ -22,8 +22,8 @@ jobs:
       - name: Push changes
         if: steps.git-check.outputs.modified == 'true'
         run: |
-          git config --global user.name 'anshulp2912'
-          git config --global user.email 'anshulp2912@gmail.com'
-          git remote set-url origin https://x-access-token:${{ secrets.GIT_TOKEN }}@github.com/${{ anshulp2912/cheapBuy }}
+          git config --global user.name 'rohan22shah'
+          git config --global user.email 'rohan22shah@gmail.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GIT_TOKEN }}@github.com/${{ rohan22shah/slash-phase3 }}
           git commit -am "Automated autoyapf fixes"
           git push
