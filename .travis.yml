@@ -6,6 +6,7 @@ before_install:
   - python -m pip install --upgrade pip
 install:
   - pip install -r requirements.txt
+  - pip install code_cov
 before_script:
   - sudo apt-get update
 sudo: required
