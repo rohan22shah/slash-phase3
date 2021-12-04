@@ -37,7 +37,6 @@ Slash is a publicly accessible web API framework that allows one to scrape the m
 
 ---
 
-
 <p align="center">
   <a href="#movie_camera-checkout-our-video">Checkout our video</a>
   ::
