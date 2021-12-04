@@ -8,5 +8,5 @@ install:
   - pip install -r requirements.txt
 sudo: required
 script:
-  - cd test 
+  - cd tests 
   - pytest 
