@@ -25,7 +25,7 @@ jobs:
     - name: Run the tests
       run: |
           cd tests
-          pytest --cov=./ --cov-report=xml
+          pytest --cov=./ --cov-report xml:cov.xml
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v2
       with:
