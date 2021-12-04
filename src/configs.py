@@ -1,6 +1,6 @@
 Copyright (c) 2021 Rohan Shah
 This code is licensed under MIT license (see LICENSE.MD for details)
-
+<br>
 @author: Slash
 """
 
