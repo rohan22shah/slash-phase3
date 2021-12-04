@@ -63,7 +63,7 @@ Slash is a publicly accessible web API framework that allows one to scrape the m
 :movie_camera: Checkout our video
 ---
 
-[![Slash Phase 3](https://github.com/rohan22shah/slash-phase3/blob/main/media/Website_1.png)](https://www.youtube.com/watch?v=H1LSa4P-8fM "SLASH Phase 3")
+[![Slash Phase 3](https://yt-embed.herokuapp.com/embed?v=H1LSa4P-8fM)](https://www.youtube.com/watch?v=H1LSa4P-8fM "SLASH Phase 3")
 
 ---
 
