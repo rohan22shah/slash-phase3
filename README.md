@@ -1,13 +1,30 @@
 <p align="center"><img width="500" src="./assets/slash.png"></p>
 
-![GitHub](https://img.shields.io/github/license/Urvashi74/slash)
-![github workflow](https://github.com/secheaper/cheaper/actions/workflows/python-app.yml/badge.svg) 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5646505.svg)](https://doi.org/10.5281/zenodo.5646505)
-![Github](https://img.shields.io/badge/language-python-red.svg)
-![GitHub issues](https://img.shields.io/github/issues-raw/Urvashi74/slash)
-![Github closes issues](https://img.shields.io/github/issues-closed-raw/Urvashi74/slash)
-![Github pull requests](https://img.shields.io/github/issues-pr/Urvashi74/slash)
-![Github closed pull requests](https://img.shields.io/github/issues-pr-closed/Urvashi74/slash)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5645496.svg)](https://doi.org/10.5281/zenodo.5645496)
+[![codecov](https://codecov.io/gh/anshulp2912/cheapBuy/branch/main/graph/badge.svg?token=WO5GVXOUSD)](https://codecov.io/gh/anshulp2912/cheapBuy)
+[![Build Status](https://app.travis-ci.com/anshulp2912/cheapBuy.svg?branch=main)](https://app.travis-ci.com/anshulp2912/cheapBuy)
+[![Python Style Checker](https://github.com/anshulp2912/cheapBuy/actions/workflows/style_checker.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/style_checker.yml)
+[![Run Tests On Push](https://github.com/anshulp2912/cheapBuy/actions/workflows/unit_test.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/unit_test.yml)
+[![Lint Python](https://github.com/anshulp2912/cheapBuy/actions/workflows/main.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/main.yml)
+[![Running Code Coverage](https://github.com/anshulp2912/cheapBuy/actions/workflows/code_cov.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/code_cov.yml)
+[![Close as a feature](https://github.com/anshulp2912/cheapBuy/actions/workflows/close_as_a_feature.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/close_as_a_feature.yml)
+
+<!--Badges-->
+<a href="https://github.com/rohan22shah/slash-phase3/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/rohan22shah/slash-phase3"></a>
+<a href="https://github.com/rohan22shah/slash-phase3/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/rohan22shah/slash-phase3"></a>
+<a href="https://github.com/rohan22shah/slash-phase3/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/rohan22shah/slash-phase3"></a>
+<a href="https://github.com/rohan22shah/slash-phase3/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/rohan22shah/slash-phase3"></a>
+<img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/rohan22shah/slash-phase3">
+<img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/rohan22shah/slash-phase3">
+<img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/rohan22shah/slash-phase3">
+
+
+<p align="center">
+    <a href="https://github.com/anshulp2912/cheapBuy/issues/new/choose">Report Bug</a>
+    ·
+    <a href="https://github.com/anshulp2912/cheapBuy/issues/new/choose">Request Feature</a>
+</p>
+
 
 Do you love shopping? Are you in search of some good deals while shopping online?! Slash is here to help you look for the best deals!
 
