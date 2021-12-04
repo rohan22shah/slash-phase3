@@ -19,7 +19,7 @@
 <a href="https://github.com/rohan22shah/slash-phase3/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/rohan22shah/slash-phase3"></a>
 <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/rohan22shah/slash-phase3">
 <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/rohan22shah/slash-phase3">
-<img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/rohan22shah/slash-phase3">
+
 
 
 <p align="center">
