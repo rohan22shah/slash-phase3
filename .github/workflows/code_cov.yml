@@ -10,7 +10,7 @@
 #     runs-on: ubuntu-latest
 #     env:
 #       OS: ubuntu-latest
-#       PYTHON: '3.9'
+#       PYTHON: '3.7.12'
 #     steps:
 #     - uses: checkout@v2
 #       with:
@@ -19,7 +19,7 @@
 #     - name: Setup Python
 #       uses: actions/setup-python@master
 #       with:
-#         python-version: 3.7
+#         python-version: 3.7.12
 #     - name: Generate Report
 #       run: |
 #         pip install pytest-cov
@@ -47,10 +47,10 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-    - name: Install Python 3.9.7
+    - name: Install Python 3.7.12
       uses: actions/setup-python@v1
       with:
-        python-version: 3.9.7
+        python-version: 3.7.12
     - name: Install dependencies
       run: |
         pip install pytest-cov
