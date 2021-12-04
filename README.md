@@ -1,6 +1,6 @@
 <p align="center"><img width="500" src="./assets/slash.png"></p>
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5645496.svg)](https://doi.org/10.5281/zenodo.5645496)
+<a href="https://doi.org/10.5281/zenodo.5758396"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.5758396.svg" alt="DOI"></a>
 [![codecov](https://codecov.io/gh/anshulp2912/cheapBuy/branch/main/graph/badge.svg?token=WO5GVXOUSD)](https://codecov.io/gh/anshulp2912/cheapBuy)
 [![Build Status](https://app.travis-ci.com/anshulp2912/cheapBuy.svg?branch=main)](https://app.travis-ci.com/anshulp2912/cheapBuy)
 [![Python Style Checker](https://github.com/rohan22shah/slash-phase3/actions/workflows/style_checker.yml/badge.svg)](https://github.com/rohan22shah/slash-phase3/actions/workflows/style_checker.yml)
