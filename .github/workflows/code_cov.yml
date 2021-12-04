@@ -27,7 +27,8 @@ jobs:
           cd tests
           pytest --cov=./ --cov-report=xml
     - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v1
+    - uses: actions/checkout@master
+    - uses: codecov/codecov-action@v2
       with:
         directory: ./coverage/reports/
         files: ./coverage1.xml,./coverage2.xml
