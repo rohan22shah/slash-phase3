@@ -3,11 +3,12 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5645496.svg)](https://doi.org/10.5281/zenodo.5645496)
 [![codecov](https://codecov.io/gh/anshulp2912/cheapBuy/branch/main/graph/badge.svg?token=WO5GVXOUSD)](https://codecov.io/gh/anshulp2912/cheapBuy)
 [![Build Status](https://app.travis-ci.com/anshulp2912/cheapBuy.svg?branch=main)](https://app.travis-ci.com/anshulp2912/cheapBuy)
-[![Python Style Checker](https://github.com/anshulp2912/cheapBuy/actions/workflows/style_checker.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/style_checker.yml)
-[![Run Tests On Push](https://github.com/anshulp2912/cheapBuy/actions/workflows/unit_test.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/unit_test.yml)
-[![Lint Python](https://github.com/anshulp2912/cheapBuy/actions/workflows/main.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/main.yml)
-[![Running Code Coverage](https://github.com/anshulp2912/cheapBuy/actions/workflows/code_cov.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/code_cov.yml)
-[![Close as a feature](https://github.com/anshulp2912/cheapBuy/actions/workflows/close_as_a_feature.yml/badge.svg)](https://github.com/anshulp2912/cheapBuy/actions/workflows/close_as_a_feature.yml)
+[![Python Style Checker](https://github.com/rohan22shah/slash-phase3/actions/workflows/style_checker.yml/badge.svg)](https://github.com/rohan22shah/slash-phase3/actions/workflows/style_checker.yml)
+[![Run Tests On Push](https://github.com/rohan22shah/slash-phase3/actions/workflows/unit_test.yml/badge.svg)](https://github.com/rohan22shah/slash-phase3/actions/workflows/unit_test.yml)
+[![Python Application](https://github.com/rohan22shah/slash-phase3/actions/workflows/python-app.yml/badge.svg)](https://github.com/rohan22shah/slash-phase3/actions/workflows/python-app.yml)
+[![Lint Python](https://github.com/rohan22shah/slash-phase3/actions/workflows/main.yml/badge.svg)](https://github.com/rohan22shah/slash-phase3/actions/workflows/main.yml)
+[![Running Code Coverage](https://github.com/rohan22shah/slash-phase3/actions/workflows/code_cov.yml/badge.svg)](https://github.com/rohan22shah/slash-phase3/actions/workflows/code_cov.yml)
+[![Close as a feature](https://github.com/rohan22shah/slash-phase3/actions/workflows/close_as_a_feature.yml/badge.svg)](https://github.com/rohan22shah/slash-phase3/actions/workflows/close_as_a_feature.yml)
 
 <!--Badges-->
 <a href="https://github.com/rohan22shah/slash-phase3/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/rohan22shah/slash-phase3"></a>
@@ -140,7 +141,6 @@ We would like to thank Professor Dr Timothy Menzies for helping us understand th
 We would also like to extend our gratitude to previous group : https://github.com/Urvashi74/slash
 - [https://streamlit.io/](https://streamlit.io/)
 - [https://shields.io/](https://shields.io/)
-<br>
 
 :email: Support
 ---
