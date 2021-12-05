@@ -7,7 +7,7 @@ Score|Notes| Self-Assessment| Evidence|
 |.5|Docs: doco generated , format not ugly  |.5| Evidence in [Docs](https://github.com/rohan22shah/slash-phase3/tree/main/docs)|
 |.5|evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people) |.5| Evidence in [Requirements](https://github.com/rohan22shah/slash-phase3/blob/main/requirements.txt)|
 |.5|evidence that the members of the team are working across multiple places in the code base |.5 |Evidence in [Commit](https://github.com/rohan22shah/slash-phase3/commits/main)|
-|1|Docs: what: point descriptions of each class/function (in isolation)  |1| Evidence in [Docs](https://github.com/rohan22shah/slash-phase3/tree/main/docs)|
+|1|Docs: what: point descriptions of each class/function (in isolation)  |1| Evidence in [Code Description](https://github.com/rohan22shah/slash-phase3/blob/main/docs/Code%20Description.pdf)|
 |.5|Number of commits: by different people  |.5| Evidence in [Commit](https://github.com/rohan22shah/slash-phase3/commits/main)|
 |1|issues are being closed |1| Evidence in [RoadMap](https://github.com/rohan22shah/slash-phase3/projects/1)|
 |.5|issues are discussed before they are closed |.5| Discussed in issues|
