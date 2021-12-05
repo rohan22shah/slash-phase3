@@ -41,9 +41,6 @@ streamlit run slash_user_interface.py
 - Python
 
 
-## Code Functionalities
-
-
 ## Output
 
 The below Images shows the android application developed for Slash Phase 3
